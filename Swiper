@@ -1,0 +1,15 @@
+banners: [ '../static/logo.png', '../static/logo2.png'],
+swiperOption: {
+    pagination: {
+        el: '.swiper-pagination'
+    },
+    slidesPerView:1,
+    autoplay:{
+        delay:1000,
+        disableOnInteraction:false
+    },
+    spaceBetween:30,
+    loop:true
+}
+
+this.mySwiper.slideTo(2, 1000, false)
