@@ -1,0 +1,23 @@
+
+<div class="out">
+      <div class="in"></div>
+</div>
+
+
+.out {
+			height:200px;
+			max-width:1000px;
+			border:1px solid black;
+			display:flex;
+			flex-wrap:wrap;
+			align-content:flex-start; 
+		}
+.in {
+  flex: 0 1 auto;
+  flex-basis: 25%;
+  height:25%;
+  /* width:25%; */
+  box-sizing:border-box;
+  border:1px solid red;
+  margin-bottom:10px
+}
