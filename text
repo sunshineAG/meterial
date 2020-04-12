@@ -15,3 +15,49 @@ white-space:pre-line;/**处理空白 */
 word-wrap:break-word;/** 允许这行 */
 word-spacing: 30px;/*文字间隔 */
 text-indent:1cm;/*文本缩进*/ 
+
+//清除input默认样式
+.input{
+    background:none;  
+	  outline:none;  
+    -webkit-appearance: none;
+    outline-color: invert ;
+    outline-style: none ;
+    outline-width: 0px ;
+    border: none ;
+    border-style: none ;
+    text-shadow: none ;
+    -webkit-appearance: none ;
+    -webkit-user-select: text ;
+    outline-color: transparent ;
+    box-shadow: none;
+ }
+ .input:focus{   
+	  border:none;
+}
+
+input:-webkit-autofill,select:-webkit-autofill {  
+    -webkit-box-shadow: 0 0 0px 1000px white  inset !important;  
+}
+
+/**.input
+ type="number"
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type="number"]{
+        -moz-appearance: textfield;
+    }
+type="date"
+        ----------用来移除向下箭头----------
+    input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    }
+
+        ----------用来移除叉叉按钮----------
+    input[type="date"]::-webkit-clear-button{
+    display:none;
+    }
+
+*/
