@@ -1,0 +1,15 @@
+//图片适应父级容器进行裁剪
+<div class="box">
+  <img class="cover" />
+</div>
+
+.box { width: 250px; height: 180px; overflow: hidden;}
+.box img{ width: 100%; height: 100%;}
+.cover { object-fit: cover;}
+
+//h5标签适配不通分辨率的banner图
+ <picture>
+    <source srcset="../../assets/23.jpg" media="(min-width:700px)">
+    <img src="../../assets/logo.png" alt="">
+</picture>
+
