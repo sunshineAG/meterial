@@ -8,3 +8,10 @@ display: -webkit-box;
 -webkit-box-orient: vertical;
 -webkit-line-clamp: 3;
 overflow: hidden;
+
+//文本常用样式
+word-break:normal;/**在恰当的断字点进行换行 */
+white-space:pre-line;/**处理空白 */
+word-wrap:break-word;/** 允许这行 */
+word-spacing: 30px;/*文字间隔 */
+text-indent:1cm;/*文本缩进*/ 
