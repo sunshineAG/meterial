@@ -1,0 +1,5 @@
+//父级 
+display:grid;
+grid-template-columns:300px 200px 100px;-------列宽（1fr 1fr 1fr 百分比）
+grid-template-rows:100px 50px;------行高
+grid-gap:20px;
