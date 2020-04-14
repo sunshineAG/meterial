@@ -88,4 +88,34 @@ export default {
 .hover {
   background-color: #409EFF;
 }
+//六边形
+.hexagon1{
+        width: 50px;
+        height: 80px;
+        background-color:#6c6 ;
+        position: relative;
+        margin:0 auto;
+    }
+    .hexagon1::before{
+        width: 0;
+        height: 0;
+        content: '';
+        position: absolute;
+        top: 0;
+        left:-20px;
+        border-right: 20px solid #6c6;
+        border-top:40px solid transparent;
+        border-bottom:40px solid transparent;
+    }
+    .hexagon1::after{
+        width: 0;
+        height: 0;
+        content: '';
+        position: absolute;
+        top: 0;
+        right:-20px;
+        border-left: 20px solid #6c6;
+        border-top:40px solid transparent;
+        border-bottom:40px solid transparent;
+    }
 </style>
