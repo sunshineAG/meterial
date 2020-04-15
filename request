@@ -1,3 +1,14 @@
+ var res = require('request')
+            console.log(res)
+            res('https://www.fastmock.site/mock/5c5bfc1890b707fb9461c6671f14005f/mock/ssr', { json: true }, (err, res, body) => {
+                if (err) { return console.log(err); }
+                console.log(res.body);
+                resolve(res.body)
+            });
+
+
+
+
 var http = require('http');  
   
             var qs = require('querystring');  
