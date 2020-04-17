@@ -2,7 +2,9 @@
 2.node 中间层 实现多请求接口 统一返回
 3.class require模块
 4.async await promise
-5.翻页数据
+5.加载分页数据
 
 6.href下载canvas画的图片转base64
 7.headers 配置参数的区别  非html文本文档，header请求设置
+8.侧边悬浮层
+9.swiper 图片自适应
