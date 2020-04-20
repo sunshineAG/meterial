@@ -9,3 +9,10 @@
 8.侧边悬浮层
 9.swiper 图片自适应
 10.git下ssh clone项目
+
+
+问题采集
+一：vuex state field "route" was overridden by a module with the same name at "route"
+    https://blog.csdn.net/weixin_44003190/article/details/104334140
+二：devTools failed to parse sourceMap : swiper.esm.bundle.js.map
+   浏览器解解析缩文件问题
