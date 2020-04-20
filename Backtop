@@ -33,7 +33,7 @@ export default {
     },
     getTop () {
       let timer = setInterval(() => {
-        let top = document.documentElement.scrollTopa
+        let top = document.documentElement.scrollTop
         let speed = Math.ceil(top / 5)
         document.documentElement.scrollTop = top - speed
         if (top === 0) {
