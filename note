@@ -15,5 +15,8 @@
 问题采集
 一：vuex state field "route" was overridden by a module with the same name at "route"
     https://blog.csdn.net/weixin_44003190/article/details/104334140
+    
 二：devTools failed to parse sourceMap : swiper.esm.bundle.js.map
    浏览器解解析缩文件问题
+   
+三：给router-view加了个keep-alive导致组件缓存了，所以不会触发beforeDestory和destoryed
