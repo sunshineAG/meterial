@@ -10,7 +10,11 @@
 9.swiper 图片自适应
 10.git下ssh clone项目
 
+2020-4-20
 1.回到顶部 2.资源文件加载 3.对象转数组 URL过滤 4.node数据分页
+
+2020-4-21
+碰撞检测
 
 问题采集
 一：vuex state field "route" was overridden by a module with the same name at "route"
