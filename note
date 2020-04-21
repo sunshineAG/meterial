@@ -16,6 +16,7 @@
 2020-4-21
 碰撞检测
 
+input  obj |  NodepageSize
 问题采集
 一：vuex state field "route" was overridden by a module with the same name at "route"
     https://blog.csdn.net/weixin_44003190/article/details/104334140
