@@ -17,6 +17,15 @@
 碰撞检测
 
 input  obj |  NodepageSize
+
+arr.split()
+arr.join()
+Object.key(obj)
+Object.entries(obj)
+some(function(a,b,c){},d)
+reduce includes
+filter
+
 问题采集
 一：vuex state field "route" was overridden by a module with the same name at "route"
     https://blog.csdn.net/weixin_44003190/article/details/104334140
