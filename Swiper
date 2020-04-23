@@ -13,3 +13,37 @@ swiperOption: {
 }
 
 this.mySwiper.slideTo(2, 1000, false)
+
+var arys1 = new Array();
+   arys1 = "2016-09-25".split('-');     //日期为输入日期，格式为 2013-3-10
+   var ssdate = new Date(arys1[0], parseInt(arys1[1] - 1), arys1[2]);
+   var  week1=String(ssdate.getDay()).replace("0","日").replace("1","一").replace("2","二").replace("3","三").replace("4","四").replace("5","五").replace("6","六")//就是你要的星期几
+   var week="星期"+week1； //就是你要的星期几
+   
+   //------
+   var str = "今天是星期" + "日一二三四五六".charat(new Date().getDay());
+   //------
+   
+   var a = new array("日", "一", "二", "三", "四", "五", "六");
+var week = new Date().getDay();
+var str = "今天是星期"+ a[week];
+alert(str);
+
+//---------
+
+2 function getTsFormatDate(timeStamp) {
+ 3     var date = new Date(timeStamp);
+ 4     //console.log(date); 结果为：Tue Apr 02 2019 07:49:23 GMT+0800 (中国标准时间)
+ 5     var seperator1 = "-";
+ 6     var year = date.getFullYear();
+ 7     var month = date.getMonth() + 1;
+ 8     var strDate = date.getDate();
+ 9     if (month >= 1 && month <= 9) {
+10         month = "0" + month;
+11     }
+12     if (strDate >= 0 && strDate <= 9) {
+13         strDate = "0" + strDate;
+14     }
+15     var currentdate = year + seperator1 + month + seperator1 + strDate;
+16     return currentdate;
+17 }
