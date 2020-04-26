@@ -28,6 +28,39 @@
 4.缺省占位组件
 5.ssr start---》end  
 
+var startStop = new Array();
+				
+    for(let i=0;i<7;i++){
+        startStop.push( new Date(new Date(new Date().getTime()-i*24*60*60*1000)).getDay())
+    }
+
+    return startStop
+}
+
+nginx
+
+worker_processes 4;
+events{
+    worker_connections 1024;
+}
+
+http{
+    upstream aplayWeb{
+        server 服务器 xxx.xx.xxx.xx;
+    }
+    server{
+        listen 8081;
+        location /{
+            proxy_pass http://aplayWeb;
+        }
+    }
+
+}
+
+
+
+
+
 
 
 arr.split()
