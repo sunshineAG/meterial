@@ -30,12 +30,17 @@
 
 2020-4-27
 1.骨架屏
-2.meta动态title
+2.meta动态title  // --
 3.node 压测 堆栈调试 
 4.博客搭建
 5.tcp socket套接字
 6.nginx ssh环境搭建
 
+2020-5-8
+1.多环境配置
+2.图片预加载(延迟问题)
+
+vue-meta-info 动态设置meta
 
 
 
@@ -47,6 +52,9 @@ Object.entries(obj)
 some(function(a,b,c){},d)
 reduce includes
 filter
+
+
+
 
 
 问题采集
