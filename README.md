@@ -25,3 +25,4 @@ css postCss NEXT CSS 语法预处理
 UI 回归测试 phantomCSS
 TDD 单元测试 
 性能收集
+router.getMatchedComponents  
