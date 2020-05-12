@@ -6,7 +6,7 @@ webpack 常用插件
 5.hotModuleReplacementPlugin 模块热更新
 6.webpack-merge 
 7.yargs-parser 获取命令行参数
-8.loadsh js 
+8.——————————————————————————————————loadsh js 
 9.cross-env 解决跨平台变量设置问题
 10.unlifyJS-Webpack-plugin js压缩插件
 11.prerender-spa-plugin 预渲染插件
