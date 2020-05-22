@@ -66,7 +66,11 @@ queryId:0
 pageSize 15
 接口和打包
 
+ios / android 转发 百度浏览器调起微信应用时有兼容问题待解决
+移动端常用浏览器  UC 百度 chrome 搜狗.... android原生浏览器的兼容问题
 
+活动和系统消息 --》编辑、删除
+系统消息 删除
 
 arr.split()
 arr.join()
